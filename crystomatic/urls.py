@@ -24,8 +24,8 @@ urlpatterns = [
     path('person/', views.getPerson),
     path('vehicle/<int:id>/', views.getVehiclebyId),
     path('add/<int:num1>/<int:num2>/', views.addNumbers),
-    path('a/<int:num1>/<int:num2>/', cal.addnumber),
-    path('r/<int:num1>/<int:num2>/',cal.reducenumber),
-    path('m/<int:num1>/<int:num2>/',cal.multiplynumber),
-    path('d/<int:num1>/<int:num2>/',cal.devidenumber)
+    path('ad/<int:num1>/<int:num2>/', cal.addnumber),
+    path('substract/<int:num1>/<int:num2>/',cal.reducenumber),
+    path('multiply/<int:num1>/<int:num2>/',cal.multiplynumber),
+    path('devide/<int:num1>/<int:num2>/',cal.devidenumber)
 ]
