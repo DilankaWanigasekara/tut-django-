@@ -23,7 +23,7 @@ def devidenumber(request,num1,num2):
         message={
         'message' : 'devide by zero exception'
         }
-    return JsonResponse(message)
+        return JsonResponse(message)
     sum = {
         "sum": num1 / num2
     }
